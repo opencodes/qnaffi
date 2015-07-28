@@ -1,0 +1,13 @@
+.grid-item {
+    background: #ccc none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	float: left;
+	min-height: 40px;
+	text-align: center;
+}
+.grid-item:hover{
+  background: #ddd none repeat scroll 0 0;
+}
+.grid.complete .grid-item.bomb {
+  background: red none repeat scroll 0 0;
+}
